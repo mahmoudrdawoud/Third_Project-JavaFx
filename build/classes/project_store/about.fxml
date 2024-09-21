@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="RIGHT_TO_LEFT" prefHeight="300.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project_store.AboutController">
+   <children>
+      <Pane layoutX="-52.0" layoutY="-42.0" prefHeight="64.0" prefWidth="98.0" style="-fx-background-color: #464646;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="212.0" layoutY="18.0" text="About" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Bold" size="24.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Label layoutX="21.0" layoutY="150.0" text="اعداد الطالب :">
+         <font>
+            <Font name="Segoe UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="89.0" text="تحت اشراف د. :">
+         <font>
+            <Font name="Segoe UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="252.0" text="المشروع :">
+         <font>
+            <Font name="Segoe UI Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" layoutX="122.0" layoutY="188.0" prefHeight="26.0" prefWidth="111.0" text="عبد الرحمن شهاب">
+         <font>
+            <Font name="Segoe UI Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="124.0" layoutY="146.0" prefHeight="26.0" prefWidth="111.0" text="محمود داود">
+         <font>
+            <Font name="Segoe UI Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="122.0" layoutY="249.0" prefHeight="26.0" prefWidth="111.0" text="متجر الكتروني">
+         <font>
+            <Font name="Segoe UI Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField alignment="CENTER" layoutX="124.0" layoutY="88.0" prefHeight="26.0" prefWidth="111.0" text="اسماعيل الحلو">
+         <font>
+            <Font name="Segoe UI Bold" size="13.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
